@@ -1,3 +1,2 @@
-<?php get_header();?>
-<?=get_the_content()?>
-<?php get_footer();?>
+<?php include 'header.php';?>
+<?php include 'footer.php';?>
