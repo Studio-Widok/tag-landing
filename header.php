@@ -1,3 +1,5 @@
+<?php $url = ""?>
+
 <!DOCTYPE html>
 <html lang="pl">
 
