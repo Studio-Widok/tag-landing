@@ -1,0 +1,9 @@
+$contentWidth: 60rem;
+$contentWidthWide: 120rem;
+$contentWidthText: 40rem;
+$spacing: 3rem;
+$wrapperSpacing: 3rem;
+
+@mixin fontDefault() {
+  font-family: sans-serif;
+}
