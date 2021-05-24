@@ -2,12 +2,12 @@
   define("IS_SSL_ENABLED", isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on');
   define(
     "BASE_URL", (IS_SSL_ENABLED ? "https" : "http") . "://" .
-    $_SERVER[HTTP_HOST] .
+    $_SERVER['HTTP_HOST'] .
     str_replace(realpath($_SERVER['DOCUMENT_ROOT']), '', realpath(__DIR__))
   );
   define(
     "CURRENT_URL", (IS_SSL_ENABLED ? "https" : "http") . "://" .
-    $_SERVER[HTTP_HOST] . $_SERVER[REQUEST_URI]
+    $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']
   );
 ?>
 
