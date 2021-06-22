@@ -1,4 +1,6 @@
-@import 'variables';
+@use "sass:math";
+
+@import "variables";
 
 body {
   @include fontDefault();
@@ -8,4 +10,4 @@ body {
   min-height: calc(var(--vh, 1vh) * 100);
 }
 
-@import 'base';
+@import "base";
