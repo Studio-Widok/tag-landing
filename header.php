@@ -26,6 +26,7 @@
   <meta property="og:image" content="<?=BASE_URL?>/media/ogimg.png" />
   <meta property="og:image:width" content="512" />
   <meta property="og:image:height" content="512" />
+  <meta name="color-scheme" content="light only">
   <link rel="stylesheet" href="./dist/main.css" />
 </head>
 
