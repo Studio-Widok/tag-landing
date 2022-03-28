@@ -51,24 +51,14 @@ module.exports = {
         use: {
           loader: 'babel-loader',
           options: {
-            plugins: [
-              '@babel/plugin-syntax-dynamic-import',
-              [
-                'transform-react-jsx',
-                {
-                  pragma: 'wp.element.createElement',
-                },
-              ],
-            ],
             presets: ['@babel/preset-env'],
+            plugins: ['@babel/plugin-transform-runtime'],
           },
         },
       },
       {
-        test: /\.(eot|otf|ttf|woff|woff2|jpg|png|gif|svg)$/,
-        use: {
-          loader: 'file-loader',
-        },
+        test: /\.(eot|otf|ttf|woff|woff2|jpg|png|gif|webp|svg)$/,
+        type: 'asset',
       },
     ],
   },
