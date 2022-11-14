@@ -1,9 +1,19 @@
 $contentWidth: 60rem;
-$contentWidthWide: 120rem;
-$contentWidthText: 40rem;
+$contentWidthWide: 110rem;
+// $contentWidthText: 45rem;
 $spacing: 3rem;
-$wrapperSpacing: 3rem;
+// $wrapperSpacing: 3rem;
+
+$resLarge: 1280px;
+$resTablet: 900px;
+$resPhone: 450px;
+
+@font-face {
+  font-family: "GT Flexa";
+  src: url("../../media/GT-Flexa-GX.woff2");
+  font-weight: 100 800;
+}
 
 @mixin fontDefault() {
-  font-family: sans-serif;
+  font-family: "GT Flexa", sans-serif;
 }

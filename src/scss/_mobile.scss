@@ -1,22 +1,22 @@
-@mixin mobile-basic($resolution) {
-  @media not all and (max-width: #{$resolution}px) {
-    .less-#{$resolution} {
+@mixin mobile-basic($resolution, $key) {
+  @media not all and (max-width: #{$resolution}) {
+    .less-#{$key} {
       display: none;
     }
   }
 
-  @media (max-height: #{$resolution}px) {
-    .more-height-#{$resolution} {
+  @media (max-height: #{$resolution}) {
+    .more-height-#{$key} {
       display: none;
     }
   }
 
-  @media (max-width: #{$resolution}px) {
-    .more-#{$resolution} {
+  @media (max-width: #{$resolution}) {
+    .more-#{$key} {
       display: none;
     }
 
-    .flex-#{$resolution}-25 {
+    .flex-#{$key}-25 {
       flex-wrap: wrap;
 
       > .col5,
@@ -36,7 +36,7 @@
       }
     }
 
-    .flex-#{$resolution}-33 {
+    .flex-#{$key}-33 {
       flex-wrap: wrap;
 
       > .col4,
@@ -56,7 +56,7 @@
       }
     }
 
-    .flex-#{$resolution}-50 {
+    .flex-#{$key}-50 {
       flex-wrap: wrap;
 
       > .col3,
@@ -76,7 +76,7 @@
       }
     }
 
-    .flex-#{$resolution} {
+    .flex-#{$key} {
       flex-wrap: wrap;
 
       > .col2,
@@ -94,16 +94,16 @@
       }
     }
 
-    .flex-column-reverse-#{$resolution} {
+    .flex-column-reverse-#{$key} {
       flex-direction: column-reverse;
     }
 
-    .nocolumn-#{$resolution} {
+    .nocolumn-#{$key} {
       padding-left: 0 !important;
       padding-right: 0 !important;
     }
 
-    .column-#{$resolution} {
+    .column-#{$key} {
       padding-left: 3em !important;
       padding-right: 3em !important;
 
@@ -113,7 +113,7 @@
       }
     }
 
-    .column-half-#{$resolution} {
+    .column-half-#{$key} {
       padding-left: 1.5em !important;
       padding-right: 1.5em !important;
 
@@ -125,45 +125,5 @@
   }
 }
 
-@include mobile-basic(1200);
-@include mobile-basic(1050);
-@include mobile-basic(900);
-@include mobile-basic(768);
-@include mobile-basic(600);
-@include mobile-basic(450);
-
-@media (max-width: 768px) {
-  body {
-    font-size: 0.9em;
-  }
-  .rsep {
-    height: 3em;
-  }
-  .column {
-    padding: 0 2em;
-  }
-  .column-left {
-    padding-left: 2em;
-  }
-  .column-right {
-    padding-right: 2em;
-  }
-  .column-half {
-    padding: 0 1em;
-  }
-  .column-left-half {
-    padding-left: 1em;
-  }
-  .column-right-half {
-    padding-right: 1em;
-  }
-  .column-inner {
-    padding: 0 0.6667em;
-  }
-  .column-outer {
-    padding: 0 1.3333em;
-  }
-  .column-double {
-    padding: 0 4em;
-  }
-}
+// @include mobile-basic($resTablet, "tablet");
+// @include mobile-basic($resPhone, "phone");

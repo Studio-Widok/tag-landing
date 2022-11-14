@@ -1,5 +1,4 @@
-
-// import 'lazysizes';
+import 'lazysizes';
 // import smoothscroll from 'smoothscroll-polyfill';
 
 import 'widok';
