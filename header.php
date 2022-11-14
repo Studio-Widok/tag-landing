@@ -22,10 +22,9 @@
   <meta property="og:url" content="<?=CURRENT_URL?>" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="TAG" />
-  <!-- <meta property="og:description" content="opis" /> -->
-  <!-- <meta property="og:image" content="<?=BASE_URL?>/media/ogimg.png" /> -->
-  <!-- <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" /> -->
+  <meta property="og:image" content="<?=BASE_URL?>/media/ogimg.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
   <meta name="color-scheme" content="light only">
   <link rel="stylesheet" href="./dist/main.css" />
 </head>
