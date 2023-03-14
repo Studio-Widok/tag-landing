@@ -1,4 +1,4 @@
-<?php include 'header.php';?>
+<?php include 'header.php'; ?>
 <div id="container">
   <img class="lazyload" alt=""
     data-srcset="./media/bg-1280.jpg 1280w, ./media/bg-1920.jpg 1920w, ./media/bg.jpg 3000w"
@@ -35,7 +35,7 @@
           Podwale 7/2 31-118 Kraków <br>
           <a
             href="mailto:booking@tagcocktails.com">booking@tagcocktails.com</a><br>
-          <a href="tel:+48507898463">+48 507 898 463</a><br>
+          <a href="tel:+48533431659">+48 533 431 659</a><br>
           <small>phone available only during opening hours</small>
         </p>
         <div class="r more-tablet"></div>
@@ -43,4 +43,4 @@
     </div>
   </div>
 </div>
-<?php include 'footer.php';?>
+<?php include 'footer.php'; ?>
