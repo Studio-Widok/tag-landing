@@ -1,10 +1,10 @@
 <?php include 'header.php'; ?>
 <div id="container">
   <img class="lazyload" alt=""
-    data-srcset="./media/bg-1280.jpg 1280w, ./media/bg-1920.jpg 1920w, ./media/bg.jpg 3000w"
+    data-srcset="./media/bg-1280.jpg?v=2 1280w, ./media/bg-1920.jpg?v=2 1920w"
     data-sizes="auto" id="bg">
   <img class="lazyload" alt=""
-    data-srcset="./media/bg-500.jpg 500w, ./media/bg-900.jpg 900w"
+    data-srcset="./media/bg-500.jpg?v=2 500w, ./media/bg-900.jpg?v=2 900w"
     data-sizes="auto" id="bg-mobile">
   <img src="./media/logo.svg" alt="" id="logo">
   <div id="content" class="content content--wide column-outer-growing">
@@ -12,6 +12,8 @@
       <div class="contact-column contact-column--main column-inner-growing">
         <p>opening hours:</p>
         <p>
+          tuesday 19:00 &ndash; 0:00 <small>/we close doors at
+            23:30</small><br>
           wednesday + thursday 19:00 &ndash; 1:00 <small>/we close doors at
             00:30</small><br>
           friday + saturday 19:00 &ndash; 2:00 <small>/we close doors at
