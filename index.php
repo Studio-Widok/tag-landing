@@ -16,7 +16,7 @@
             23:30</small><br>
           wednesday + thursday 19:00 &ndash; 1:00 <small>/we close doors at
             00:30</small><br>
-          friday + saturday 19:00 &ndash; 2:00 <small>/we close doors at
+          friday + saturday 18:00 &ndash; 2:00 <small>/we close doors at
             1:30</small>
         </p>
         <div class="r more-tablet"></div>
@@ -45,4 +45,8 @@
     </div>
   </div>
 </div>
+
+<div class="dineout-widget" data-lang="en" data-type="app"
+  data-id="66a694c7a11b7a2fa204b45bb26dde76" data-os="tagcocktails.com"></div>
+
 <?php include 'footer.php'; ?>
