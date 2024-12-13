@@ -28,8 +28,8 @@ define(
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta name="color-scheme" content="light only">
-  <link rel="stylesheet" href="./dist/main.css" />
-  <link rel="stylesheet" href="https://book.dineout.pl/dist/index.css?v=1.1">
+  <link rel="stylesheet" href="./dist/main.css?v=1.1" />
+  <link rel="stylesheet" href="https://book.dineout.pl/dist/index.css">
 </head>
 
 <body>
