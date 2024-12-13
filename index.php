@@ -33,6 +33,7 @@
       </div>
       <div
         class="contact-column contact-column--main column-inner-growing text-right">
+        <button id="dineout-button">book a table</button>
         <p>
           Podwale 7/2 31-118 Kraków <br>
           <a
@@ -46,7 +47,12 @@
   </div>
 </div>
 
-<div class="dineout-widget" data-lang="en" data-type="app"
-  data-id="66a694c7a11b7a2fa204b45bb26dde76" data-os="tagcocktails.com"></div>
+<div id="dineout-wrapper">
+  <div id="dineout-content">
+    <div class="dineout-widget" data-lang="en" data-type="app"
+      data-id="66a694c7a11b7a2fa204b45bb26dde76" data-os="tagcocktails.com">
+    </div>
+  </div>
+</div>
 
 <?php include 'footer.php'; ?>
